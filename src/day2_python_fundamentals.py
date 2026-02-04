@@ -3,12 +3,12 @@
 name = input("Enter your name:")
 current_age = int(input("Enter your current age:"))
 age_in_2030 = current_age + 4
-print(f"{name} will be {age_in_2030} years old in 2030")
+print(f"{name} will be {age_in_2030} years old in 2030.")
 
 #bill splitter
 
-bill = float(input("Enter your bill amount:"))
-num = int(input("Enter number of people for splitting:"))
+bill = float(input("Enter your bill amount: "))
+num = int(input("Enter number of people for splitting: "))
 split = bill / num
 print(f"each person should contribute: {split}")
 
