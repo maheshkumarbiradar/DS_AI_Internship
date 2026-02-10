@@ -5,3 +5,6 @@ def avarege(num):
     total = sum(num)
     count = len(num)
     return total/count
+
+
+
