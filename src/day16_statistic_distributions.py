@@ -43,6 +43,6 @@ for _ in range(1000):
     sample = np.random.choice(data["Income"], size=30)
     means.append(sample.mean())
 
-sns.histplot(means,bin=30, kde = True)
+sns.histplot(means,bins=30, kde = True)
 plt.title("Distribution of Sample Means")
 plt.show()
