@@ -1,4 +1,4 @@
 import matplotlib.pyplot as plt
-a = [1,2,3,4,5]
-b = [6,7,8,9,10]
+a = [4,5,6,7,8]
+b = [2,4,6,8,10]
 plt.plot(a, b)
